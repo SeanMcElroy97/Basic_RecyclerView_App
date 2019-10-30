@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+
         RecyclerView recV = findViewById(R.id.My_recycler_view_view);
         Adapter MyAdapt = new Adapter(this, names);
         recV.setAdapter(MyAdapt);
